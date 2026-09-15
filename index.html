@@ -3407,7 +3407,9 @@ html body #wpb-lp-frame {
     <p style="font-size:15px;line-height:1.85;color:#4A4A4A;max-width:480px;margin:0 auto;">So we built a pull-up bar that looks like it belongs in a living room</p>
   </div>
   <p style="font-size:9px;color:#BBB;text-align:center;margin-top:40px;margin-bottom:32px;line-height:1.6;">¹ Consumer Reports / Statista (2024)</p>
-  <div style="margin:0 auto;max-width:860px;"><img src="https://fitablekorea.com/web/product/big/202605/a0d038b1be4e7bbc212d8c9b5f7ad130.jpg" alt="Wide pull-up bar blending naturally into a living room" style="width:100%;display:block;"></div>
+  <figure id="wpb-living-room-image" class="living-room-visual">
+    <img src="https://fitablekorea.com/web/product/big/202605/4772f536bed80b044ed7dad4e314ae2e.jpg" width="2048" height="2048" loading="lazy" decoding="async" alt="The complete white FITABLE pull-up bar with both clamps visible in a doorway overlooking a calm living room">
+  </figure>
 </section>
 
   
@@ -4245,6 +4247,8 @@ section p:not([style*="margin"]) { margin-bottom:14px; }
 
 /* Never-sold planned MSRP must not read as a struck-through former price (2026-09-12) */
 .pricing .price-was { text-decoration: none !important; }
+.behavioral > .living-room-visual { max-width:860px; margin:0 auto; }
+.living-room-visual img { display:block; width:100%; height:auto; max-height:none; object-fit:contain; border-radius:6px; }
 
 /* Opening social proof: delivered buyer experiences and pre-delivery support stay distinct. */
 .social-proof { background:#FAFAFA; padding:56px 32px; border-top:1px solid #F0F0F0; }
